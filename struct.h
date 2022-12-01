@@ -6,6 +6,7 @@
 #include <stdio.h>
 
 
+
 typedef struct {
     int **matrice;
     int size;
@@ -15,6 +16,7 @@ typedef struct {
     int numberLig;
     int numberCol;
 } Coordonnee;
+
 
 
 #endif //SUDOKU_STRUCT_H
