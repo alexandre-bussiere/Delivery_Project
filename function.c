@@ -1,5 +1,6 @@
 #include "function.h"
 
+
 void fillMatrix(int **mat, int size) {
     int i, j;
     for (i = 0; i < size; i++) {
@@ -27,6 +28,7 @@ void fillMaskRandom(int **mat, int size, int numberOfCellShow) {
     }
 }
 
+
 SudokuGrid createSudoku(int size) {
     int i;
     SudokuGrid matrice;
@@ -37,6 +39,7 @@ SudokuGrid createSudoku(int size) {
     matrice.size = size;
     return matrice;
 }
+
 
 
 SudokuGrid createdUserSudokuGrid(SudokuGrid solutionMatrix, SudokuGrid maskMatrix) {

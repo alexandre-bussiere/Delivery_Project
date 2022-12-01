@@ -2,8 +2,10 @@
 #define SUDOKU_STRUCT_H
 
 
+
 #include <stdlib.h>
 #include <stdio.h>
+
 
 
 
@@ -18,6 +20,4 @@ typedef struct {
 } Coordonnee;
 
 
-
 #endif //SUDOKU_STRUCT_H
-

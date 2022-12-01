@@ -2,6 +2,12 @@
 #define SUDOKU_FUNCTION_H
 
 #include <stdbool.h>
+
+#include "struct.h"
+
+
+SudokuGrid createSudoku(int); // verif
+
 #include "gameMatrix.h"
 #include "struct.h"
 
