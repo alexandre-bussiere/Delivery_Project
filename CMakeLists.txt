@@ -4,4 +4,4 @@ project(Delivery_Project C)
 set(CMAKE_C_STANDARD 99)
 
 
-add_executable(Delivery_Project main.c function.h function.c struct.h gameMatrix.h gameMatrix.c)
+add_executable(Delivery_Project main.c function.h function.c struct.h gameMatrix.c gameMatrix.h)
